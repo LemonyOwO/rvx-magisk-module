@@ -12,6 +12,7 @@ included-patches = ""
 version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+arch = "all"
 
 [Music]
 build-mode = "both"
@@ -23,8 +24,8 @@ arch = "both"
 [Twitter]
 build-mode = "apk"
 version = "latest"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 arch = "all"
 
 [Twitch]
@@ -36,8 +37,8 @@ arch = "both"
 
 [TikTok]
 version = "latest"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-# uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 # arch = "armeabi-v7a, arm64-v8a"
 
 [Reddit]
@@ -105,6 +106,7 @@ integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 build-mode = "both"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+arch = "all"
 
 [Lightroom]
 enabled = true
