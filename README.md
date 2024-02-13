@@ -56,4 +56,5 @@ $ ./build.sh
 [j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk), [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
 [inotia00](https://github.com/inotia00) for [revanced-extended patches](https://github.com/inotia00/revanced-patches) and [Vanced MicroG](https://github.com/inotia00/VancedMicroG)
+
 [YT-Advanced](https://github.com/YT-Advanced) for [ReX patches](https://github.com/YT-Advanced/ReX-patches).
