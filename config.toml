@@ -33,7 +33,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Twitter]
 build-mode = "apk"
 version = "latest"
-uptodown-dlurl = "https://twitter.br.uptodown.com/android"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 
 [Twitch]
 build-mode = "apk"
