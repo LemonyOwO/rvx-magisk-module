@@ -6,34 +6,29 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 build-mode = "both"
 excluded-patches = ""
 included-patches = ""
-version = "auto"
+version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "all"
 
 [Music]
 build-mode = "both"
-version = "auto"
+version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "all"
 
 [Twitter]
 build-mode = "apk"
-version = "auto"
+version = "latest"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 arch = "all"
-
-[TikTok]
-version = "auto"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 
 [Reddit]
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 build-mode = "apk"
-version = "auto"
+version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 arch = "all"
 
@@ -45,21 +40,21 @@ arch = "all"
 
 [Messenger]
 enabled = true
-version = "auto"
+version = "latest"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 uptodown-dlurl = "https://messenger.en.uptodown.com/android"
 arch = "all"
 
 [Facebook]
 enabled = true
-version = "auto"
+version = "latest"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 arch = "all"
 
 [Instagram]
 enabled = true
-version = "auto"
+version = "latest"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "all"
 
