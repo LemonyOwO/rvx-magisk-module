@@ -18,41 +18,6 @@ version = "latest"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
 
-[Twitter]
-build-mode = "apk"
-version = "latest"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-arch = "all"
-
-[Twitch]
-enabled = true
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-arch = "all"
-
-[TikTok]
-enabled = true
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
-# arch = "armeabi-v7a, arm64-v8a"
-
-[Reddit]
-enabled = true
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-
-[Instagram]
-enabled = true
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
-#uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-arch = "all"
-
 [Music-ReX]
 enabled = true
 app-name = "Music"
@@ -62,7 +27,6 @@ integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
-
 
 [YouTube-ReX]
 enabled = true
