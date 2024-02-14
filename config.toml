@@ -17,7 +17,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "all"
 
 [Music-ReX]
-app-name = "Music"
+build-mode = "both"
 version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
@@ -26,7 +26,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "all"
 
 [YouTube-ReX]
-app-name = "YouTube"
+build-mode = "both"
 version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
