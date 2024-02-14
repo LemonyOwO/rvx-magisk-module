@@ -98,12 +98,12 @@ jobs:
 
           for OUTPUT in *; do
             DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
-            [[ $OUTPUT = *.apk ]] && APKS+="Download APK: ${DL_URL}$NL" || [[ $OUTPUT = *.zip ]] && MODULES+="Download Module: ${DL_URL}$NL"
+            [[ $OUTPUT = *.apk ]] && APKS+="[Download APK](${DL_URL})$NL" || [[ $OUTPUT = *.zip ]] && MODULES+="[Download Module](${DL_URL})$NL"
           done
 
           MODULES=${MODULES%$NL}
           APKS=${APKS%$NL}
 
-          MSG="New build!\n\n${BODY}\n\nDownload Links:\nModules:\n${MODULES}\nAPKs:\n${APKS}"
+          MSG="*New build!*\n\nDownload Links:\nModules:\n${MODULES}\n\nAPKs:\n${APKS}"
 
-          curl -X POST --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
