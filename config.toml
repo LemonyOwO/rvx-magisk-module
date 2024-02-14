@@ -28,7 +28,6 @@ arch = "all"
 version = "auto"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
-arch = "all"
 
 [Reddit]
 patches-source = "YT-Advanced/ReX-patches"
