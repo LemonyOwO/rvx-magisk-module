@@ -5,16 +5,12 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 [YouTube]
 build-mode = "both"
 version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "all"
 
 [Music]
 build-mode = "both"
 version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "all"
 
 [Music-ReX]
 app-name = "Music"
@@ -24,7 +20,6 @@ patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "all"
 
 [YouTube-ReX]
 app-name = "YouTube"
@@ -34,29 +29,21 @@ patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "all"
 
 [Twitter]
 build-mode = "apk"
 version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-arch = "all"
+uptodown-dlurl = "https://twitter.br.uptodown.com/android"
 
 [Twitch]
 build-mode = "apk"
 version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
-arch = "all"
 
 [TikTok]
 build-mode = "apk"
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
-# uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
-# arch = "armeabi-v7a, arm64-v8a"
+version = "latest"
+uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 
 [Reddit]
 build-mode = "apk"
@@ -64,45 +51,34 @@ version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-arch = "all"
 
 [Messenger]
 build-mode = "apk"
-version = "auto"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+version = "latest"
 uptodown-dlurl = "https://messenger.en.uptodown.com/android"
-arch = "all"
 
 [Facebook]
 build-mode = "apk"
-version = "auto"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+version = "latest"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
-arch = "all"
 
 [Instagram]
 build-mode = "apk"
-version = "auto"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
-# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-arch = "arm64-v8a"
+version = "latest"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 
 [Spotify]
 build-mode = "apk"
 version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-arch = "all"
 
 [Tasker]
 build-mode = "apk"
 version = "latest"
 uptodown-dlurl = "https://tasker.en.uptodown.com/android"
-arch = "all"
 
 [Lightroom]
 build-mode = "apk"
 version = "latest"
 uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
-arch = "all"
