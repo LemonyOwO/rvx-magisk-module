@@ -38,7 +38,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 [Twitch]
 build-mode = "apk"
 version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 
 [TikTok]
 build-mode = "apk"
