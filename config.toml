@@ -21,27 +21,45 @@ arch = "both"
 [Twitter]
 build-mode = "apk"
 version = "latest"
-uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 arch = "all"
+
+[Twitch]
+enabled = true
+version = "latest"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+arch = "both"
+
+[TikTok]
+version = "auto"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+# uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+# arch = "armeabi-v7a, arm64-v8a"
 
 [Reddit]
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-build-mode = "apk"
-version = "latest"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-arch = "all"
-
-[Tasker]
 version = "auto"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[Messenger]
 enabled = true
-uptodown-dlurl = "https://tasker.en.uptodown.com/android"
-arch = "all"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+uptodown-dlurl = "https://messenger.en.uptodown.com/android"
+# arch = "armeabi-v7a"
+
+[Facebook]
+enabled = true
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
+# arch = "armeabi-v7a"
 
 [Instagram]
 enabled = true
 version = "auto"
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
+# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "all"
 
 [Music-ReX]
