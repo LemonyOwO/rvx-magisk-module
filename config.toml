@@ -107,9 +107,3 @@ rv-brand = "ReX"
 build-mode = "both"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 arch = "all"
-
-[Lightroom]
-enabled = true
-version = "latest"
-uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
-arch = "all"
