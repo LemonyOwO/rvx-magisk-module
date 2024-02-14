@@ -40,7 +40,7 @@ arch = "all"
 
 [Instagram]
 enabled = true
-version = "latest"
+version = "auto"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "all"
 
