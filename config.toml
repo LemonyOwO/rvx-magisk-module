@@ -89,7 +89,7 @@ uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 [Music-ReX]
 enabled = true
 app-name = "Music"
-version = "latest"
+version = "auto"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
@@ -100,7 +100,7 @@ arch = "both"
 [YouTube-ReX]
 enabled = true
 app-name = "YouTube"
-version = "latest"
+version = "auto"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
