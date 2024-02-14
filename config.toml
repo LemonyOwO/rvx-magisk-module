@@ -50,3 +50,10 @@ version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 arch = "all"
+
+[Instagram]
+enabled = true
+version = "latest"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+arch = "arm64-v8a"
