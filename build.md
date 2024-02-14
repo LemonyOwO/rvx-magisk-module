@@ -1,5 +1,5 @@
-Music (arm-v7a): 6.39.50  
 Music (arm64-v8a): 6.39.50  
+Music (arm-v7a): 6.39.50  
 YouTube: 19.05.36  
 Twitter: 10.28.0-release.0  
 Twitch: 18.1.0_BETA  
@@ -7,13 +7,12 @@ TikTok: 33.4.1
 Reddit: 2024.07.0  
 Spotify: 8.9.12.599  
 Tasker: 6.2.22  
+Instagram: 318.0.0.30.110  
 Facebook: 449.0.0.44.115  
 Messenger: messages.android_20240206_01_RC02.phone_dynamic  
 Music-ReX (arm64-v8a): 6.39.50  
-Instagram: 318.0.0.30.110  
 Music-ReX (arm-v7a): 6.39.50  
 YouTube-ReX: 19.05.36  
-Lightroom: 9.0.1  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
