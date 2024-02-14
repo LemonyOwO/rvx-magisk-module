@@ -40,14 +40,14 @@ arch = "all"
 
 [Messenger]
 enabled = true
-version = "latest"
+version = "auto"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 uptodown-dlurl = "https://messenger.en.uptodown.com/android"
 arch = "all"
 
 [Facebook]
 enabled = true
-version = "latest"
+version = "auto"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 arch = "all"
