@@ -29,7 +29,7 @@ arch = "all"
 [YouTube-ReX]
 app-name = "YouTube"
 build-mode = "both"
-version = "auto"
+version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
