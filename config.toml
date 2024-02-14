@@ -16,7 +16,7 @@ build-mode = "both"
 version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "all"
+arch = "both"
 
 [Twitter]
 build-mode = "apk"
@@ -65,7 +65,7 @@ version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
-arch = "all"
+arch = "both"
 
 [YouTube-ReX]
 enabled = true
