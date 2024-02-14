@@ -98,7 +98,7 @@ jobs:
 
           for OUTPUT in *; do
             DL_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/download/${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}/${OUTPUT}"
-            [[ $OUTPUT = *.apk ]] && APKS+="📦[${OUTPUT}](${DL_URL})$NL" || [[ $OUTPUT = *.zip ]] && MODULES+="📦[${OUTPUT}](${DL_URL})$NL"
+            [[ $OUTPUT = *.apk ]] && APKS+="📦 [${OUTPUT}](${DL_URL})$NL" || [[ $OUTPUT = *.zip ]] && MODULES+="📦 [${OUTPUT}](${DL_URL})$NL"
           done
 
           MODULES=${MODULES%$NL}
@@ -106,8 +106,6 @@ jobs:
 
           BODY=$(sed 's/^\* \*\*/↪ \*\*/g; s/^\* `/↪ \*\*/g; s/`/\*/g; s/^\* /\↪/g; s/\*\*/\*/g; s/###//g; s/^- /↪ /g; /^==/d;' ../build.md)
 
-          MSG="*New build!*${NL}${NL}${BODY}${NL}*▼ Download Links:*${NL}Modules:${NL}${MODULES}${NL}APKs:${NL}${APKS}"
+          MSG="*New build!*\n\n${BODY}\n\n*▼ Download Links:*\nModules:\n${MODULES}\nAPKs:\n${APKS}"
 
-          MSG=${MSG:0:4096}
-
-          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
+          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
