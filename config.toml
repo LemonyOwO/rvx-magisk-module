@@ -40,7 +40,8 @@ arch = "all"
 build-mode = "apk"
 version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 arch = "all"
 
 [Twitch]
