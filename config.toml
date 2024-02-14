@@ -4,8 +4,6 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
-included-patches = ""
 version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -16,20 +14,18 @@ build-mode = "both"
 version = "latest"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "both"
+arch = "all"
 
 [Music-ReX]
-enabled = true
 app-name = "Music"
 version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "both"
+arch = "all"
 
 [YouTube-ReX]
-enabled = true
 app-name = "YouTube"
 version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
