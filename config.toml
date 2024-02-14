@@ -1,62 +1,68 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+enable-magisk-update = true # set this to false if you do not want to receive up
 
 # you can use rvmm-config-gen to generate a config
+
+[YouTube]
+build-mode = "both"
+excluded-patches = ""
+included-patches = ""
+version = "latest"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+arch = "all"
+
+[Music]
+build-mode = "both"
+version = "latest"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+arch = "all"
 
 [Twitter]
 build-mode = "apk"
 version = "latest"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-# uptodown-dlurl = "https://twitter.en.uptodown.com/android"
-arch = "all"
-
-[Twitch]
-enabled = true
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+@@ -35,12 +19,6 @@ version = "latest"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 arch = "all"
+
+[TikTok]
+version = "latest"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
+# arch = "armeabi-v7a, arm64-v8a"
 
 [Reddit]
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-
-[Spotify]
-enabled = true
-build-mode = "apk"
+@@ -54,31 +32,6 @@ build-mode = "apk"
 version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+
+[Tasker]
+version = "latest"
+enabled = true
+uptodown-dlurl = "https://tasker.en.uptodown.com/android"
+
+# [Instagram]
+# enabled = true
+# version = "auto"
+# # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
+# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+
+[Messenger]
+enabled = true
+version = "latest"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+uptodown-dlurl = "https://messenger.en.uptodown.com/android"
+# arch = "armeabi-v7a"
+
+[Facebook]
+enabled = true
+version = "latest"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
+# arch = "armeabi-v7a"
 
 [Instagram]
 enabled = true
 version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
-# arch = "arm64-v8a"
-
-[Music-ReX]
-enabled = true
-app-name = "Music"
-version = "auto"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-rv-brand = "ReX"
-build-mode = "both"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-arch = "both"
-
-[YouTube-ReX]
-enabled = true
-app-name = "YouTube"
-version = "auto"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-rv-brand = "ReX"
-build-mode = "both"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-arch = "all"
