@@ -53,7 +53,7 @@ arch = "all"
 
 [Instagram]
 enabled = true
-version = "latest"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+version = "auto"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.instagram.android"
+# uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "arm64-v8a"
