@@ -1,7 +1,7 @@
-YouTube-ReX: 19.02.39  
 Music: 6.39.50  
 Music-ReX: 6.39.50  
 YouTube: 19.05.36  
+YouTube-ReX: 19.05.36  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
