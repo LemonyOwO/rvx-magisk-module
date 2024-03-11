@@ -19,8 +19,8 @@ version = "latest"
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
 rv-brand = "ReX"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 
 [YouTube-ReX]
 app-name = "YouTube"
