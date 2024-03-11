@@ -15,7 +15,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 [Music-ReX]
 app-name = "Music"
 build-mode = "both"
-version = "auto"
+version = "19.05.36"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReX"
