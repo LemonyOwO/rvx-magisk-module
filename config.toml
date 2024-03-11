@@ -21,6 +21,8 @@ integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReX"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+excluded-patches = ""
+included-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
 
 [YouTube-ReX]
 app-name = "YouTube"
