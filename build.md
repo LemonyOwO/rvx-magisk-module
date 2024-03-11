@@ -1,6 +1,6 @@
 Music: 6.42.55  
 Music-ReX: 6.42.55  
-YouTube-ReX: 19.05.36  
+YouTube-ReX: 19.07.40  
 YouTube: 19.04.37  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
