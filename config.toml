@@ -25,7 +25,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 [YouTube-ReX]
 app-name = "YouTube"
 build-mode = "both"
-version = "latest"
+version = "19.09.37"
 patches-source = "rufusin/revanced-patches"
 integrations-source = "rufusin/revanced-integrations"
 rv-brand = "ReX"
