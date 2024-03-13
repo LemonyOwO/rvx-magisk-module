@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "patchName": "Custom branding icon YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Red"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Red"
+      }
+    ]
+  }
+]
