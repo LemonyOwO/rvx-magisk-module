@@ -2,6 +2,14 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 
 # you can use rvmm-config-gen to generate a config
 
+[Twitch]
+build-mode = "apk"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+# uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+arch = "arm64-v8a"
+
 [YouTube]
 build-mode = "both"
 version = "auto"
