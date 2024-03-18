@@ -4,10 +4,8 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 
 [Twitch]
 build-mode = "apk"
-version = "18.6.0"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
-# uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+version = "latest"
+uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [YouTube]
 build-mode = "both"
