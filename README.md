@@ -55,10 +55,10 @@ $ ./build.sh
 ## Credits
 [j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk), [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
-[Revanced](https://github.com/ReVanced) for [revanced patches](https://github.com/revanced/revanced-patches).
+[Revanced](https://github.com/ReVanced) for [revanced-patches](https://github.com/revanced/revanced-patches).
 
-[inotia00](https://github.com/inotia00) for [revanced-extended patches](https://github.com/inotia00/revanced-patches) and [Vanced MicroG](https://github.com/inotia00/VancedMicroG).
+[inotia00](https://github.com/inotia00) for [RvX-patches](https://github.com/inotia00/revanced-patches) and [Vanced MicroG](https://github.com/inotia00/VancedMicroG).
 
-[YT-Advanced](https://github.com/YT-Advanced) for [ReX patches](https://github.com/YT-Advanced/ReX-patches).
+[YT-Advanced](https://github.com/YT-Advanced) for [ReX-patches](https://github.com/YT-Advanced/ReX-patches).
 
 [anddea](https://github.com/anddea/revanced-patches) for [revanced-patches](https://github.com/anddea/revanced-patches).
