@@ -19,13 +19,10 @@ version = "6.41.59"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "RVX"
-patches-version = "v2.222.0-dev.8"
-integrations-version = "v0.149.0-dev.1"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 excluded-patches = ""
 included-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
-arch = "arm64-v8a"
 
 [YouTube-RVX]
 app-name = "YouTube"
