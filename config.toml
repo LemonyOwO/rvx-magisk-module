@@ -25,6 +25,7 @@ integrations-version = "v0.149.0-dev.1"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 excluded-patches = ""
 included-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
+arch = "both"
 
 [YouTube-RVX]
 app-name = "YouTube"
