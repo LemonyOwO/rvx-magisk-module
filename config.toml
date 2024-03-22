@@ -25,7 +25,6 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 excluded-patches = ""
 included-patches = "'Custom branding icon YouTube Music' 'Custom branding name YouTube Music'"
-arch = "both"
 
 [YouTube-RVX]
 app-name = "YouTube"
