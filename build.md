@@ -1,5 +1,4 @@
-Music-RVX (arm64-v8a): 6.46.52  
-Music-RVX (arm-v7a): 6.46.52  
+Music-RVX (arm64-v8a): 6.47.50  
 YouTube-RVX: 19.11.38  
 
 Install [Revanced GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music  
