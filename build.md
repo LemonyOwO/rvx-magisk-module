@@ -1,6 +1,6 @@
-Music-RVX (arm64-v8a): 6.49.53  
-Music-RVX (arm-v7a): 6.49.53  
+Music-RVX (arm64-v8a): 6.50.51  
 YouTube-RVX: 19.16.38  
+Music-RVX (arm-v7a): 6.50.51  
 
 Install [Revanced GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
@@ -9,6 +9,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.6.0-all.jar  
-Integrations: anddea/revanced-integrations-0.151.0.apk  
-Patches: anddea/revanced-patches-2.224.0.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.224.0)  
+Integrations: anddea/revanced-integrations-0.152.0-dev.2.apk  
+Patches: anddea/revanced-patches-2.225.0-dev.4.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/vdev.4)  
