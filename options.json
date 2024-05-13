@@ -16,10 +16,13 @@
         "value": "Revancify Blue"
       },
       {
-         "patchName" : "Custom branding name YouTube",
-    "options" : [ {
-      "key" : "AppName",
-      "value" : "ReVanced Extended"
+        "patchName": "Custom branding name YouTube",
+        "options": [
+          {
+            "key": "AppName",
+            "value": "ReVanced Extended"
+          }
+        ]
       }
     ]
   }
