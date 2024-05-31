@@ -21,10 +21,6 @@
     "patchName": "Custom branding icon YouTube Music",
     "options": [
       {
-        "key": "SplashHeaderIcon",
-        "value": "Revancify Blue"
-      },
-      {
         "key": "AppIcon",
         "value": "Revancify Blue"
       }
