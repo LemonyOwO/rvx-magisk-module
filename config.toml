@@ -15,7 +15,7 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 [Music-RVX]
 app-name = "Music"
 build-mode = "both"
-version = "7.08.52"
+version = "7.10.51"
 patches-source = "anddea/revanced-patches"
 integrations-source = "anddea/revanced-integrations"
 rv-brand = "RVX"
