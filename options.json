@@ -1,4 +1,3 @@
-        
 [
   {
     "patchName": "Custom branding name for YouTube",
@@ -47,12 +46,21 @@
     "patchName": "Custom branding name for YouTube Music",
     "options": [
       {
-        "key": "AppNameLauncher",
+        "key": "AppNameNotification",
         "value": "RVX Music"
       },
       {
-        "key": "AppNameNotification",
+        "key": "AppNameLauncher",
         "value": "RVX Music"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom header for YouTube Music",
+    "options": [
+      {
+        "key": "CustomHeader",
+        "value": "Revancify Blue"
       }
     ]
   }
