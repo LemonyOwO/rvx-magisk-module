@@ -1,15 +1,7 @@
-  [
+        
+[
   {
-    "patchName": "Custom branding icon YouTube",
-    "options": [
-      {
-        "key": "AppIcon",
-        "value": "Revancify Blue"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding name YouTube",
+    "patchName": "Custom branding name for YouTube",
     "options": [
       {
         "key": "AppName",
@@ -18,12 +10,51 @@
     ]
   },
   {
-    "patchName": "Custom branding icon YouTube Music",
+    "patchName": "Custom branding icon for YouTube",
     "options": [
       {
         "key": "AppIcon",
         "value": "Revancify Blue"
+      },
+      {
+        "key": "ChangeHeader",
+        "value": "Revancify Blue"
+      },
+      {
+        "key": "ChangeSplashIcon",
+        "value": "Revancify Blue"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "Revancify Blue"
+      },
+      {
+        "key": "ChangeHeader",
+        "value": "Revancify Blue"
+      },
+      {
+        "key": "ChangeSplashIcon",
+        "value": "Revancify Blue"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name for YouTube Music",
+    "options": [
+      {
+        "key": "AppNameLauncher",
+        "value": "RVX Music"
+      },
+      {
+        "key": "AppNameNotification",
+        "value": "RVX Music"
       }
     ]
   }
 ]
+        
