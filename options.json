@@ -1,68 +1,84 @@
 [
-  {
-    "patchName": "Custom branding name for YouTube",
-    "options": [
-      {
-        "key": "AppName",
-        "value": "ReVanced Extended"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding icon for YouTube",
-    "options": [
-      {
-        "key": "AppIcon",
-        "value": "Revancify Blue"
-      },
-      {
-        "key": "ChangeHeader",
-        "value": "Revancify Blue"
-      },
-      {
-        "key": "ChangeSplashIcon",
-        "value": "Revancify Blue"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding icon for YouTube Music",
-    "options": [
-      {
-        "key": "AppIcon",
-        "value": "Revancify Blue"
-      },
-      {
-        "key": "ChangeHeader",
-        "value": "Revancify Blue"
-      },
-      {
-        "key": "ChangeSplashIcon",
-        "value": "Revancify Blue"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding name for YouTube Music",
-    "options": [
-      {
-        "key": "AppNameNotification",
-        "value": "RVX Music"
-      },
-      {
-        "key": "AppNameLauncher",
-        "value": "RVX Music"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom header for YouTube Music",
-    "options": [
-      {
-        "key": "CustomHeader",
-        "value": "Revancify Blue"
-      }
-    ]
-  }
+   {
+      "patchName": "Custom branding icon for YouTube Music",
+      "options": [
+         {
+            "key": "AppIcon",
+            "value": "Revancify Blue"
+         },
+         {
+            "key": "ChangeHeader",
+            "value": true
+         },
+         {
+            "key": "ChangeSplashIcon",
+            "value": true
+         }
+      ]
+   },
+   {
+      "patchName": "Custom branding name for YouTube Music",
+      "options": [
+         {
+            "key": "AppNameNotification",
+            "value": "RVX Music"
+         },
+         {
+            "key": "AppNameLauncher",
+            "value": "RVX Music"
+         }
+      ]
+   },
+   {
+      "patchName": "Settings for YouTube Music",
+      "options": [
+         {
+            "key": "RVXSettingsMenuName",
+            "value": "ReVanced Extended"
+         }
+      ]
+   },
+   {
+      "patchName": "Custom branding icon for YouTube",
+      "options": [
+         {
+            "key": "AppIcon",
+            "value": "Revancify Blue"
+         },
+         {
+            "key": "ChangeHeader",
+            "value": true
+         },
+         {
+            "key": "CustomHeader",
+            "value": ""
+         },
+         {
+            "key": "ChangeSplashIcon",
+            "value": true
+         },
+         {
+            "key": "RestoreOldSplashAnimation",
+            "value": true
+         }
+      ]
+   },
+   {
+      "patchName": "Custom branding name for YouTube",
+      "options": [
+         {
+            "key": "AppName",
+            "value": "ReVanced Extended"
+         }
+      ]
+   },
+   {
+      "patchName": "Settings for YouTube",
+      "options": [
+         {
+            "key": "RVXSettingsMenuName",
+            "value": "ReVanced Extended"
+         }
+      ]
+   }
 ]
-        
